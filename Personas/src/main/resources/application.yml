@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: PersonasIncolnova
+  datasource:
+    url: jdbc:mysql://localhost:3306/personasdb
+    username: root
+    password: root1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+#Personalizacion de la interfaz
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+
+  #Informacion de la API
+  open-api:
+    info:
+      title: Api de gestion de empleados
+      version: 1.0.0
+      description: Documentacion oficial para la la API
