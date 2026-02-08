@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @DateRange(start = "inicioContrato", end = "finContrato", message = "Error: EL contrato no puede terminar antes de empezar")
 public record EmpleadoRequest(
-        @NotBlank(message = "Seleccionar el documento")
+        @NotNull(message = "Seleccionar el documento")
         TipoDocumento tipoDocumento,
         @NotBlank(message = "No puede ingresar sin el Numero de documento de identificacion")
         String numeroDocumento,

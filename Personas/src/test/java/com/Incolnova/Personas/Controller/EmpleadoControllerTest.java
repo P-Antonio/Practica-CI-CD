@@ -1,9 +1,12 @@
 package com.Incolnova.Personas.Controller;
 
+import com.Incolnova.Personas.Entity.PersonaEntity;
 import com.Incolnova.Personas.Entity.TipoDocumento;
 import com.Incolnova.Personas.Service.EmpleadoService;
+import com.Incolnova.Personas.Service.ImpServiceEmpleado;
 import com.Incolnova.Personas.dto.request.EmpleadoRequest;
 import com.Incolnova.Personas.dto.response.EmpleadoResponse;
+import com.Incolnova.Personas.mapper.EmpleadoMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +24,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(EmpleadoController.class)
@@ -29,15 +33,19 @@ public class EmpleadoControllerTest {
     @Autowired
     private MockMvc mockMvc;
     @MockitoBean
-    private EmpleadoService service;
+    private ImpServiceEmpleado service;
     @Autowired
     private ObjectMapper objectMapper;
 
     @Test
     void create_Debe_Retornar201_CuandoEsValido() throws Exception {
         //Given
-        EmpleadoRequest request = new EmpleadoRequest( TipoDocumento.CEDULA_CIUDADANIA, "343565", "Ana", "Gomez", "ana@mail.com", "Carrera 10",
-                LocalDateTime.of(1990, 12, 4, 12, 30), LocalDateTime.now(), LocalDateTime.now().plusDays(20));
+        EmpleadoRequest request = new EmpleadoRequest(
+                TipoDocumento.CEDULA_CIUDADANIA, "343565", "Ana", "Gomez", "ana@mail.com", "Carrera 10",
+                LocalDateTime.of(1985, 3, 22, 0, 0),
+                LocalDateTime.of(1990, 12, 4, 12, 30),
+                LocalDateTime.of(2026, 1, 1, 0, 0));
+
         EmpleadoResponse response = new EmpleadoResponse(1L, "Ana", "Gomez", "ana@mail.com");
 
         when(service.save(any(EmpleadoRequest.class))).thenReturn(response);
@@ -46,11 +54,11 @@ public class EmpleadoControllerTest {
         mockMvc.perform(post("/empleado")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request)))
+                .andDo(print())
                 .andExpect(status().isCreated())
                 .andExpect(header().exists("Location"))
                 .andExpect(jsonPath("$.name").value("Ana"))
                 .andExpect(jsonPath("$.id").value(1));
-
     }
 
     @Test
@@ -76,7 +84,7 @@ public class EmpleadoControllerTest {
                 "Perez",
                 "Pepito@mail.com",
                 "Calle Falsa 1234",
-                LocalDateTime.now(),
+                LocalDateTime.of(2010, 1, 1, 0, 0), // Fecha de nacimiento que lo hace menor de edad
                 LocalDateTime.of(2020, 1, 1 ,0, 0),
                 LocalDateTime.now().plusDays(200)
         );
@@ -86,7 +94,7 @@ public class EmpleadoControllerTest {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(menorDeEdad)))
                 .andExpect(status().isBadRequest())
-                .andExpect(jsonPath("$.mensaje").value(containsString("Mayor de 18 años")));
+                .andExpect(jsonPath("$.mensaje").value(containsString("El empleado debe ser mayor de edad")));
     }
 
 }
