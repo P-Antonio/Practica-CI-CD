@@ -9,11 +9,13 @@ import com.Incolnova.Personas.mapper.EmpleadoMapper;
 import jakarta.persistence.EntityManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -29,6 +31,8 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest(
     webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")
+@AutoConfigureMockMvc
+@DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
 public class EmpleadoIntegrationTest {
 
     @Autowired
@@ -74,7 +78,7 @@ public class EmpleadoIntegrationTest {
     void debelistarEmpleadosPaginados(){
         //Given
         EmpleadoRequest persona1 = new EmpleadoRequest(
-                CEDULA_CIUDADANIA, "123456", "Ana", "Lopez", "ana@mail.com", "Calle 20",
+                CEDULA_CIUDADANIA, "12354523", "Ana", "Lopez", "ana@mail.com", "Calle 20",
                 LocalDateTime.of(1985, 3, 22, 0, 0),
                 LocalDateTime.of(2025, 6, 1, 9, 0),
                 LocalDateTime.of(2026, 6, 1, 18, 0)
@@ -141,7 +145,7 @@ public class EmpleadoIntegrationTest {
     @Transactional
     void debeBorrarYLuegoRestaurarEmpleado(){
         PersonaEntity emp = empleadoMapper.toEntity(new EmpleadoRequest(
-                TipoDocumento.CEDULA_CIUDADANIA, "123456", "Ana", "Lopez", "ana@mail.com", "Calle 20",
+                TipoDocumento.CEDULA_CIUDADANIA, "1835479", "Ana", "Lopez", "ana@mail.com", "Calle 20",
                 LocalDateTime.of(1985, 3, 22, 0, 0),
                 LocalDateTime.of(2025, 6, 1, 9, 0),
                 LocalDateTime.of(2026, 6, 1, 18, 0)
