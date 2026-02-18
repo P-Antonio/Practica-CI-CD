@@ -2,16 +2,17 @@ spring:
   application:
     name: PersonasIncolnova
   datasource:
-    url: jdbc:mysql://localhost:3306/personasdb
-    username: root
-    password: root1234
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
     properties:
       hibernate:
-      dialect: org.hibernate.dialect.MySQL8Dialect
+        dialect: org.hibernate.dialect.MySQLDialect
+
 #Personalizacion de la interfaz
 springdoc:
   api-docs:
