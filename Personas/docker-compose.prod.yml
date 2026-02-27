@@ -1,0 +1,23 @@
+services:
+  mysql:
+    container_name: personas-mysql
+    environment:
+      MYSQL_DATABASE: personasdb
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    volumes:
+      - mysql_prod_data:/var/lib/mysql
+
+  personas-app:
+    container_name: personas-app
+    image: personas-app:latest
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DB_URL: jdbc:mysql://mysql:3306/personasdb
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+    restart: always
+
+volumes:
+  mysql_prod_data:
