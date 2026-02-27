@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Despliegue del contenedor en gitHub actions&quot;" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;P-Antonio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:P-Antonio/Practica-CI-CD.git&quot;,
+    &quot;accountId&quot;: &quot;233ca085-42b1-46c3-a292-b39b1cbad56e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38XpqXp0SYU07IfKC7hUHUt4eLh" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PersonasIncolnovaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmailEsInvalido.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmpleadoEsMenorDeEdad.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoControllerTest.create_Debe_Retornar201_CuandoEsValido.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoIntegrationTest.debeBorrarYLuegoRestaurarEmpleado.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.EmpleadoIntegrationTest.debeGuardarEmpleadoYPersistirEnLaBaseDeDatos.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoIntegrationTest.debeRealizarSoftDeleteCorrectamente.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.EmpleadoIntegrationTest.debelistarEmpleadosPaginados.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoIntegrationTest.deveRealizarSoftDeleteCorrectamente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoMapperTest.debeMapearEmpleadoRequestAPersonaEntity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmpleadoServiceTest.findById_debeLanzarException_CuandoNoExiste.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonasIncolnovaApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Personas [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Personas [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Personas [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Personas [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Personas [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pleon/OneDrive/Documentos/8.Exesises/Incolnova&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Incolnova.Personas.Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pleon\OneDrive\Documentos\8.Exesises\Incolnova" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pleon\OneDrive\Documentos\8.Exesises\Incolnova\Personas" />
+      <recent name="C:\Users\pleon\OneDrive\Documentos\8.Exesises\Incolnova" />
+      <recent name="C:\Users\pleon\OneDrive\Documentos\8.Exesises\Incolnova\Personas\src\test\java\com\Incolnova\Personas\Controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.Incolnova.Personas.Service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonasIncolnovaApplicationTests">
+    <configuration name="EmpleadoControllerTest.create_DebeRetornar400_CuandoEmailEsInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Incolnova.Personas.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Incolnova.Personas.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Incolnova.Personas.Controller.EmpleadoControllerTest" />
+      <option name="METHOD_NAME" value="create_DebeRetornar400_CuandoEmailEsInvalido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpleadoControllerTest.create_DebeRetornar400_CuandoEmpleadoEsMenorDeEdad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Incolnova.Personas.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Incolnova.Personas.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Incolnova.Personas.Controller.EmpleadoControllerTest" />
+      <option name="METHOD_NAME" value="create_DebeRetornar400_CuandoEmpleadoEsMenorDeEdad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpleadoControllerTest.create_Debe_Retornar201_CuandoEsValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Incolnova.Personas.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Incolnova.Personas.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.Incolnova.Personas.Controller.EmpleadoControllerTest" />
+      <option name="METHOD_NAME" value="create_Debe_Retornar201_CuandoEsValido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpleadoServiceTest.findById_debeLanzarException_CuandoNoExiste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Incolnova.Personas.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Incolnova.Personas.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.Incolnova.Personas.Service.EmpleadoServiceTest" />
+      <option name="METHOD_NAME" value="findById_debeLanzarException_CuandoNoExiste" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonasIncolnovaApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Incolnova.Personas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Incolnova.Personas" />
+      <option name="MAIN_CLASS_NAME" value="com.Incolnova.Personas.PersonasIncolnovaApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonasIncolnovaApplicationTests" />
+        <item itemvalue="JUnit.EmpleadoServiceTest.findById_debeLanzarException_CuandoNoExiste" />
+        <item itemvalue="JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmpleadoEsMenorDeEdad" />
+        <item itemvalue="JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmailEsInvalido" />
+        <item itemvalue="JUnit.EmpleadoControllerTest.create_Debe_Retornar201_CuandoEsValido" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="" />
+      <created>1768955960651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768955960651</updated>
+    </task>
+    <task id="LOCAL-00001" summary="&quot;Integracion de CI&quot;">
+      <option name="closed" value="true" />
+      <created>1770506330081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770506330081</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;mejora de la carpeta github para el CI&quot;">
+      <option name="closed" value="true" />
+      <created>1770506878594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770506878594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;mejora de la carpeta github para el CI, movi la carpeta a la raiz&quot;">
+      <option name="closed" value="true" />
+      <created>1770507170213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770507170213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;Cambios para que el actions apruebe los test&quot;">
+      <option name="closed" value="true" />
+      <created>1770507508232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770507508232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;Se arreglaron los test del controlador, todos los test pasan, tienen exito&quot;">
+      <option name="closed" value="true" />
+      <created>1770593870447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770593870447</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;Cambio en el run de ci.yml para validar los test de integracion&quot;">
+      <option name="closed" value="true" />
+      <created>1770594866915</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770594866915</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;Cambio para ver los logs del porque esta fallando el test&quot;">
+      <option name="closed" value="true" />
+      <created>1770595273345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770595273345</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;Agrego dirties context para limpiar la base de datos depues de cada test&quot;">
+      <option name="closed" value="true" />
+      <created>1770595876091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770595876091</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;Creacion de docker compose por capas para CI&quot;">
+      <option name="closed" value="true" />
+      <created>1771374242630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771374242631</updated>
+    </task>
+    <task id="LOCAL-00010" summary="&quot;Creacion de docker compose por capas para CI&quot;">
+      <option name="closed" value="true" />
+      <created>1771374251746</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771374251746</updated>
+    </task>
+    <task id="LOCAL-00011" summary="&quot;Despliegue del contenedor en gitHub actions&quot;">
+      <option name="closed" value="true" />
+      <created>1772235433608</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772235433609</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Integracion de CI&quot;" />
+    <MESSAGE value="&quot;mejora de la carpeta github para el CI&quot;" />
+    <MESSAGE value="&quot;mejora de la carpeta github para el CI, movi la carpeta a la raiz&quot;" />
+    <MESSAGE value="&quot;Cambios para que el actions apruebe los test&quot;" />
+    <MESSAGE value="&quot;Se arreglaron los test del controlador, todos los test pasan, tienen exito&quot;" />
+    <MESSAGE value="&quot;Cambio en el run de ci.yml para validar los test de integracion&quot;" />
+    <MESSAGE value="&quot;Cambio para ver los logs del porque esta fallando el test&quot;" />
+    <MESSAGE value="&quot;Agrego dirties context para limpiar la base de datos depues de cada test&quot;" />
+    <MESSAGE value="&quot;Creacion de docker compose por capas para CI&quot;" />
+    <MESSAGE value="&quot;Despliegue del contenedor en gitHub actions&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Despliegue del contenedor en gitHub actions&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Personas/src/test/java/com/Incolnova/Personas/EmpleadoIntegrationTest.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="emp.deleted" />
+        <watch expression="emp.deleted" />
+        <watch expression="emp" />
+        <watch expression="emp" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
