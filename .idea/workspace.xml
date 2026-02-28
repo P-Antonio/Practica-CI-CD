@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Corrigiendo error de lectura de maven&quot;">
+    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Comando mvnw para pasar en gitHub actions&quot;">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -302,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772236424581</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&quot;Comando mvnw para pasar en gitHub actions&quot;">
+      <option name="closed" value="true" />
+      <created>1772236913324</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772236913324</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +337,8 @@
     <MESSAGE value="&quot;Despliegue del contenedor en gitHub actions&quot;" />
     <MESSAGE value="&quot;Movimiento github a la raiz&quot;" />
     <MESSAGE value="&quot;Corrigiendo error de lectura de maven&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Corrigiendo error de lectura de maven&quot;" />
+    <MESSAGE value="&quot;Comando mvnw para pasar en gitHub actions&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Comando mvnw para pasar en gitHub actions&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

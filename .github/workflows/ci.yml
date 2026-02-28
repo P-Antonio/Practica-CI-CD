@@ -20,6 +20,7 @@ jobs:
           java-version: 17
 
       - name: Give execute permission to mvnw
+        working-directory: Personas
         run: chmod +x mvnw
 
       - name: Build & test with Maven
