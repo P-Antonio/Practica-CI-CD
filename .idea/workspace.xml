@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Movimiento github a la raiz&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Corrigiendo error de lectura de maven&quot;">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772235608323</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;Corrigiendo error de lectura de maven&quot;">
+      <option name="closed" value="true" />
+      <created>1772236424581</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772236424581</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,7 +328,8 @@
     <MESSAGE value="&quot;Creacion de docker compose por capas para CI&quot;" />
     <MESSAGE value="&quot;Despliegue del contenedor en gitHub actions&quot;" />
     <MESSAGE value="&quot;Movimiento github a la raiz&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Movimiento github a la raiz&quot;" />
+    <MESSAGE value="&quot;Corrigiendo error de lectura de maven&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Corrigiendo error de lectura de maven&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

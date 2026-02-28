@@ -19,6 +19,9 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Give execute permission to mvnw
+        run: chmod +x mvnw
+
       - name: Build & test with Maven
         working-directory: Personas
         run: ./mvnw clean test
