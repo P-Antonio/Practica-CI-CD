@@ -13,6 +13,13 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+
 #Personalizacion de la interfaz
 springdoc:
   api-docs:

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Correcion de ruta en el controlador y se añade mysql en el archivo application-test.yml&quot;">
+    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Exponiendo el puerto 8080 y añadiendo URL para el actuator&quot;">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personas/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772318466276</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="&quot;Añado el build en el archivo docker-compose.prod.yml para crear la imagen con Dockerfile local&quot;">
+      <option name="closed" value="true" />
+      <created>1772319316053</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1772319316053</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +425,9 @@
     <MESSAGE value="&quot;Mejoras en ci.yml&quot;" />
     <MESSAGE value="&quot;Correcion de spring en application-test.yml&quot;" />
     <MESSAGE value="&quot;Correcion de ruta en el controlador y se añade mysql en el archivo application-test.yml&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Correcion de ruta en el controlador y se añade mysql en el archivo application-test.yml&quot;" />
+    <MESSAGE value="&quot;Añado el build en el archivo docker-compose.prod.yml para crear la imagen con Dockerfile local&quot;" />
+    <MESSAGE value="&quot;Exponiendo el puerto 8080 y añadiendo URL para el actuator&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Exponiendo el puerto 8080 y añadiendo URL para el actuator&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
