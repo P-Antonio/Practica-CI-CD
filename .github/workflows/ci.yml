@@ -27,16 +27,13 @@ jobs:
         working-directory: Personas
         run: ./mvnw clean test
 
-      - name: Build Docker image
+      - name: Build Docker images (prod)
         working-directory: Personas
-        run: docker build -t personas-app .
+        run: docker compose -f docker-compose.prod.yml build
 
-      - name: Run system with Docker Compose
-        run: |
-          docker compose \
-            -f docker-compose.yml \
-            -f docker-compose.dev.yml \
-            up -d
+      - name: Up containers (prod)
+        working-directory: Personas
+        run: docker compose -f docker-compose.prod.yml up -d
 
       - name: Wait for application
         run: |
@@ -53,4 +50,5 @@ jobs:
 
       - name: Stop containers
         if: always()
-        run: docker compose down -v
+        working-directory: Personas
+        run: docker compose -f docker-compose.prod.yml down -v
