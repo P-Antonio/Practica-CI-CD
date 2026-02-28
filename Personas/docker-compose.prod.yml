@@ -1,6 +1,7 @@
 services:
   mysql:
     container_name: personas-mysql
+    image: mysql:8.0
     environment:
       MYSQL_DATABASE: personasdb
       MYSQL_USER: ${MYSQL_USER}

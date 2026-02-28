@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;ruta para Docker&quot;">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/docker-compose-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker-compose-prod.yml" afterDir="false" />
+    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Correccion en archivo docker-compose-prod.yml&quot;">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personas/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,39 +54,42 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PersonasIncolnovaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmailEsInvalido.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmpleadoEsMenorDeEdad.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoControllerTest.create_Debe_Retornar201_CuandoEsValido.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoIntegrationTest.debeBorrarYLuegoRestaurarEmpleado.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.EmpleadoIntegrationTest.debeGuardarEmpleadoYPersistirEnLaBaseDeDatos.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoIntegrationTest.debeRealizarSoftDeleteCorrectamente.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.EmpleadoIntegrationTest.debelistarEmpleadosPaginados.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoIntegrationTest.deveRealizarSoftDeleteCorrectamente.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoIntegrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoMapperTest.debeMapearEmpleadoRequestAPersonaEntity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EmpleadoServiceTest.findById_debeLanzarException_CuandoNoExiste.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonasIncolnovaApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Personas [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Personas [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Personas [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Personas [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Personas [test].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pleon/OneDrive/Documentos/8.Exesises/Incolnova&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PersonasIncolnovaApplication.executor": "Run",
+    "JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmailEsInvalido.executor": "Run",
+    "JUnit.EmpleadoControllerTest.create_DebeRetornar400_CuandoEmpleadoEsMenorDeEdad.executor": "Run",
+    "JUnit.EmpleadoControllerTest.create_Debe_Retornar201_CuandoEsValido.executor": "Run",
+    "JUnit.EmpleadoControllerTest.executor": "Run",
+    "JUnit.EmpleadoIntegrationTest.debeBorrarYLuegoRestaurarEmpleado.executor": "Debug",
+    "JUnit.EmpleadoIntegrationTest.debeGuardarEmpleadoYPersistirEnLaBaseDeDatos.executor": "Run",
+    "JUnit.EmpleadoIntegrationTest.debeRealizarSoftDeleteCorrectamente.executor": "Debug",
+    "JUnit.EmpleadoIntegrationTest.debelistarEmpleadosPaginados.executor": "Run",
+    "JUnit.EmpleadoIntegrationTest.deveRealizarSoftDeleteCorrectamente.executor": "Run",
+    "JUnit.EmpleadoIntegrationTest.executor": "Run",
+    "JUnit.EmpleadoMapperTest.debeMapearEmpleadoRequestAPersonaEntity.executor": "Run",
+    "JUnit.EmpleadoServiceTest.executor": "Run",
+    "JUnit.EmpleadoServiceTest.findById_debeLanzarException_CuandoNoExiste.executor": "Run",
+    "JUnit.PersonasIncolnovaApplicationTests.executor": "Run",
+    "Maven.Personas [clean].executor": "Run",
+    "Maven.Personas [compile].executor": "Run",
+    "Maven.Personas [install].executor": "Run",
+    "Maven.Personas [package].executor": "Run",
+    "Maven.Personas [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pleon/OneDrive/Documentos/8.Exesises/Incolnova",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Incolnova.Personas.Entity" />
@@ -343,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772239225071</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="&quot;Correccion en archivo docker-compose-prod.yml&quot;">
+      <option name="closed" value="true" />
+      <created>1772239486022</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772239486023</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +388,8 @@
     <MESSAGE value="&quot;Test&quot;" />
     <MESSAGE value="&quot;correcion en ci.yml&quot;" />
     <MESSAGE value="&quot;ruta para Docker&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;ruta para Docker&quot;" />
+    <MESSAGE value="&quot;Correccion en archivo docker-compose-prod.yml&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Correccion en archivo docker-compose-prod.yml&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
