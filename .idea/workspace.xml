@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Correcion de spring en application-test.yml&quot;">
+    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Correcion de ruta en el controlador y se añade mysql en el archivo application-test.yml&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personas/src/main/java/com/Incolnova/Personas/Controller/EmpleadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/src/main/java/com/Incolnova/Personas/Controller/EmpleadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personas/src/main/java/com/Incolnova/Personas/Entity/PersonaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/src/main/java/com/Incolnova/Personas/Entity/PersonaEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personas/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     "JUnit.EmpleadoControllerTest.executor": "Run",
     "JUnit.EmpleadoIntegrationTest.debeBorrarYLuegoRestaurarEmpleado.executor": "Debug",
     "JUnit.EmpleadoIntegrationTest.debeGuardarEmpleadoYPersistirEnLaBaseDeDatos.executor": "Run",
-    "JUnit.EmpleadoIntegrationTest.debeRealizarSoftDeleteCorrectamente.executor": "Debug",
+    "JUnit.EmpleadoIntegrationTest.debeRealizarSoftDeleteCorrectamente.executor": "Run",
     "JUnit.EmpleadoIntegrationTest.debelistarEmpleadosPaginados.executor": "Run",
     "JUnit.EmpleadoIntegrationTest.deveRealizarSoftDeleteCorrectamente.executor": "Run",
     "JUnit.EmpleadoIntegrationTest.executor": "Run",
@@ -372,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772317030713</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&quot;Correcion de ruta en el controlador y se añade mysql en el archivo application-test.yml&quot;">
+      <option name="closed" value="true" />
+      <created>1772318466276</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1772318466276</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,7 +413,8 @@
     <MESSAGE value="&quot;Correccion en archivo docker-compose-prod.yml&quot;" />
     <MESSAGE value="&quot;Mejoras en ci.yml&quot;" />
     <MESSAGE value="&quot;Correcion de spring en application-test.yml&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Correcion de spring en application-test.yml&quot;" />
+    <MESSAGE value="&quot;Correcion de ruta en el controlador y se añade mysql en el archivo application-test.yml&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Correcion de ruta en el controlador y se añade mysql en el archivo application-test.yml&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
