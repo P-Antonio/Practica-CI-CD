@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Correccion en archivo docker-compose-prod.yml&quot;">
+    <list default="true" id="27b6b08e-9de1-4306-9017-d9b814c2ff6f" name="Changes" comment="&quot;Mejoras en ci.yml&quot;">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personas/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/docker-compose.prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personas/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Personas/src/main/resources/application-test.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772239486023</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;Mejoras en ci.yml&quot;">
+      <option name="closed" value="true" />
+      <created>1772316450446</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772316450446</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,18 +396,10 @@
     <MESSAGE value="&quot;correcion en ci.yml&quot;" />
     <MESSAGE value="&quot;ruta para Docker&quot;" />
     <MESSAGE value="&quot;Correccion en archivo docker-compose-prod.yml&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Correccion en archivo docker-compose-prod.yml&quot;" />
+    <MESSAGE value="&quot;Mejoras en ci.yml&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Mejoras en ci.yml&quot;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Personas/src/test/java/com/Incolnova/Personas/EmpleadoIntegrationTest.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="emp.deleted" />
