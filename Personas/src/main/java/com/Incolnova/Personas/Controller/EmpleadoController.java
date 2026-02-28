@@ -40,7 +40,7 @@ public class EmpleadoController {
     }
 
     @Operation(summary = "Obtener un empleado especifico", description = "Retorna un empleado con id especifico")
-    @GetMapping("/empleado/{id}")
+    @GetMapping("/{id}")
     ResponseEntity<EmpleadoResponse> empleadoById (@PathVariable Long id){
         return ResponseEntity.ok(service.findById(id));
     }

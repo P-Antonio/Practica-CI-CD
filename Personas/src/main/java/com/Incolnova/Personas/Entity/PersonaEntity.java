@@ -11,7 +11,7 @@ import org.hibernate.annotations.SQLRestriction;
 import java.time.LocalDateTime;
 @Entity
 @Table (name = "Empleados")
-@SQLDelete(sql = "UPDATE empleados SET deleted = true WHERE id?")
+@SQLDelete(sql = "UPDATE Empleados SET deleted = true WHERE id = ?")
 @SQLRestriction("deleted = false")
 @Getter
 @Setter

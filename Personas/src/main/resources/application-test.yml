@@ -1,7 +1,7 @@
 #Configuracion de la base de datos H2 para los test
 spring:
     datasource:
-        url: jdbc:h2:mem:personasdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        url: jdbc:h2:mem:personasdb;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
         driver-class-name: org.h2.Driver
     jpa:
         database-platform: org.hibernate.dialect.H2Dialect
