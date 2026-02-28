@@ -29,7 +29,7 @@ jobs:
 
       - name: Build Docker images (prod)
         working-directory: Personas
-        run: docker compose -f docker-compose.prod.yml build
+        run: docker compose -f Personas/docker-compose.prod.yml build
 
       - name: Up containers (prod)
         working-directory: Personas
